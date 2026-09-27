@@ -1,1 +1,1 @@
-document.getElementById("year").textContent=new Date().getFullYear();const toast=document.getElementById("toast");document.querySelectorAll(".signup-form").forEach(form=>form.addEventListener("submit",e=>{e.preventDefault();toast.classList.add("show");setTimeout(()=>toast.classList.remove("show"),3500)}));
+document.getElementById("year").textContent=new Date().getFullYear();
